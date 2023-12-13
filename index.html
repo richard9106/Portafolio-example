@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
     <!-- bootstrap link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -21,6 +21,8 @@
       crossorigin="anonymous"
     ></script>
     <!-- style sheets  -->
+    <link rel="preload" href="./assets/css/normalize.css" as="style">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
@@ -43,7 +45,7 @@
               <h2 class="title">Full Stack Developer</h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row ">
             <div class="col nav-container">
               <ul id="nav" class="row list-inline">
                 <li
@@ -85,11 +87,140 @@
         <!-- ./info developer  -->
       </div>
     </header>
-    <section></section>
+
+    <!-- reasons -->
+    <section class="container-fluid ">
+      <div class="row ">
+        <div class="col-md-4 bg-color-personal-info section-column">
+          <div class="row">
+            <div class="col-12 p-0">
+              <h3 class="section-heading text-uppercase">Persona Info</h3>
+            </div>
+          </div>
+          <div class="personal-info-item">
+            <div class="key">
+              <p class="text-uppercase">
+                name:
+              </p>
+            </div>
+            <div class="value">
+              <p>
+                Rosie Odenkirk
+              </p>
+            </div>
+          </div>
+          <div class="personal-info-item">
+            <div class="key">
+              <p class="text-uppercase">
+                Address:
+              </p>
+            </div>
+            <div class="value">
+              <p>
+                17 Riverdale, Catskills, NY USA
+              </p>
+            </div>
+          </div>
+          <div class="personal-info-item">
+            <div class="key">
+              <p class="text-uppercase">
+                Phone:
+              </p>
+            </div>
+            <div class="value">
+              <p>
+                555 220 1975
+              </p>
+            </div>
+          </div>
+          <div class="personal-info-item">
+            <div class="key">
+              <p class="text-uppercase">
+                Email:
+              </p>
+            </div>
+            <div class="value">
+              <p>
+                rosie.Odenkirk@hasaw.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 bg-color-three-reasons section-column">
+          <div class="row">
+            <div class="col">
+              <h3 class="section-heading text-uppercase">About Me</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10 offset-1-offset-sm-0 col-sm-4 col-md-6">
+              <div class="row">
+                <div class="col-2">
+                  <i
+                    class="three-reasons-icon fa fa-question"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-10">
+                  <h4 class="three-reasons-heading text-uppercase">
+                    What do I do?
+                  </h4>
+                  <p>
+                    I'm a skilled Full Stack Developer with a wealth of diverse
+                    life and technical experience that I bring to every project.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 offset-1-offset-sm-0 col-sm-4 col-md-6">
+              <div class="row">
+                <div class="col-2">
+                  <i
+                    class="three-reasons-icon fa fa-thumbs-up"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-10">
+                  <h4 class="three-reasons-heading text-uppercase">
+                    How do I do?
+                  </h4>
+                  <p>
+                    I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 offset-1-offset-sm-0 col-sm-4 col-md-6">
+              <div class="row">
+                <div class="col-2">
+                  <i
+                    class="three-reasons-icon fa fa-bolt"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-10">
+                  <h4 class="three-reasons-heading text-uppercase">
+                    Why hire me?
+                  </h4>
+                  <p>
+                    I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- ./reasons -->
+    </section>
 
     <!-- Footer -->
     <footer class="container-fluid">
-      <div id="footer-details"   class="row">
+      <div id="footer-details" class="row">
         <div class="col-sm-4">
           <h5 class="text-uppercase general-sub">About</h5>
           <p class="inline-block">
@@ -101,14 +232,13 @@
           <h5 class="text-uppercase general-sub">Download</h5>
           <p class="inline-block">
             Need a printable version of my CV? Download it here.
-            <a href="#"class="cv-pdf" target="_blank" >
+            <a href="#" class="cv-pdf" target="_blank">
               <i class="fa fa-download" aria-hidden="true"></i>
               <span class="sr-only">Download link.</span>
             </a>
           </p>
         </div>
         <div class="col-sm-4">
-
           <h5 class="text-uppercase general-sub">Social</h5>
           <ul class="list-inline social-links">
             <li class="list-inline-item">
