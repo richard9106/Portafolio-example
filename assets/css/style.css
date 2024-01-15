@@ -151,6 +151,7 @@ header {
 
 #nav li {
     padding: 0;
+    margin: 0;
 }
 
 .menuitem {
@@ -412,3 +413,4 @@ div#map {
 div#map {
     min-height: 360px;
 }
+
