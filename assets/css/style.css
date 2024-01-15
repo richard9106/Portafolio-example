@@ -352,6 +352,7 @@ footer .cv-pdf i:hover {
     border-radius: 12px;
     content: '';
     background: #fafafa;
+    
 }
 
 .history-heading {
@@ -406,4 +407,8 @@ div#map {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+div#map {
+    min-height: 360px;
 }
